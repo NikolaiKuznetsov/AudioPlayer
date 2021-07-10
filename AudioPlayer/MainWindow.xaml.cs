@@ -255,7 +255,7 @@ namespace AudioPlayer
             }
             catch (Exception)
             {
-                MessageBox.Show("Трек для воспроизведения не выбран", "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Трек для воспроизведения не выбран!", "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
